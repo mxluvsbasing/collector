@@ -10,7 +10,7 @@ Write-Host ""
 Write-Host "=====================================" -ForegroundColor Cyan
 Write-Host "          TOOLS COLLECTOR            " -ForegroundColor Green
 Write-Host "=====================================" -ForegroundColor Cyan
-Write-Host " Made By Java | Ported from Unknown  " -ForegroundColor DarkGray
+Write-Host " Made By Java | Edited by mx  " -ForegroundColor DarkGray
 Write-Host ""
 
 # -----------------------
@@ -154,3 +154,4 @@ foreach ($url in $urls) {
 Start-Process explorer.exe $folder
 
 Write-Host "`n[✓] Finished" -ForegroundColor Green
+
