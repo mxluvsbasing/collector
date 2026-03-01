@@ -133,7 +133,8 @@ $urls = @(
     'https://github.com/ItzIceHere/RedLotusAltChecker/releases/download/RL/RedLotusAltChecker.exe',
     'https://github.com/Orbdiff/DPS-Analyzer/releases/download/v1.0/dpsanalyzer.exe',
     'https://github.com/bacanoicua/RAMDumpExplorer/releases/download/1.0/RAMDumpExplorer.exe',
-    'https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip'
+    'https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip',
+     'https://download.ericzimmermanstools.com/bstrings.zip'
     )
 
 # -----------------------
@@ -154,4 +155,5 @@ foreach ($url in $urls) {
 Start-Process explorer.exe $folder
 
 Write-Host "`n[✓] Finished" -ForegroundColor Green
+
 
