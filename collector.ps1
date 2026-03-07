@@ -136,7 +136,11 @@ $urls = @(
     'https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip',
     'https://download.ericzimmermanstools.com/bstrings.zip',
     'https://www.nirsoft.net/utils/winprefetchview-x64.zip',
-    'https://www.nirsoft.net/utils/userassistview.zip'
+    'https://www.nirsoft.net/utils/userassistview.zip',
+    'https://github.com/Orbdiff/DPS-Analyzer/releases/download/v1.0/UserAssistView.exe',
+    'https://github.com/Orbdiff/JARParser/releases/download/v1.2/JARParser.exe',
+    'https://github.com/Orbdiff/CheckDeletedUSN/releases/download/v0.2.1/CheckDeletedUSN.exe',
+    'https://github.com/Orbdiff/PFTrace/releases/download/v1.0.1/PFTrace.exe'
     )
 
 # -----------------------
@@ -157,6 +161,7 @@ foreach ($url in $urls) {
 Start-Process explorer.exe $folder
 
 Write-Host "`n[✓] Finished" -ForegroundColor Green
+
 
 
 
