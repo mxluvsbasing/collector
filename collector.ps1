@@ -140,7 +140,8 @@ $urls = @(
     'https://github.com/Orbdiff/DPS-Analyzer/releases/download/v1.0/UserAssistView.exe',
     'https://github.com/Orbdiff/JARParser/releases/download/v1.2/JARParser.exe',
     'https://github.com/Orbdiff/CheckDeletedUSN/releases/download/v0.2.1/CheckDeletedUSN.exe',
-    'https://github.com/Orbdiff/PFTrace/releases/download/v1.0.1/PFTrace.exe'
+    'https://github.com/Orbdiff/PFTrace/releases/download/v1.0.1/PFTrace.exe',
+    'https://accessdata-ftk-imager.software.informer.com/download/?ca81189'
     )
 
 # -----------------------
